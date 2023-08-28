@@ -20,6 +20,8 @@
         http://github.com/signal11/hidapi .
 ********************************************************/
 
+#pragma GCC diagnostic ignored "-Wstringop-overflow"
+
 #include <windows.h>
 
 #ifndef _NTDEF_
